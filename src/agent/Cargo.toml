@@ -71,7 +71,7 @@ clap = { version = "3.0.1", features = ["derive"] }
 openssl = { version = "0.10.38", features = ["vendored"] }
 
 # Image pull/decrypt
-image-rs = { git = "https://github.com/mattarnoatibm/image-rs.git", rev = "651b8dde95d2cdaa7e0393b2a3ce33fba4f6c00d", default-features = true }
+image-rs = { git = "https://github.com/mattarnoatibm/image-rs.git", rev = "7634c573abad45a61f45cca7256b47f42dfc2d92", default-features = true }
 
 [dev-dependencies]
 tempfile = "3.1.0"
